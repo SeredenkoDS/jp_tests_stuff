@@ -1,0 +1,21 @@
+#choice
+завтра|asu
+здание/дом|biru
+английский язык|ei-go
+карандаш|enpitsu
+собака|inu
+стул|isu
+добрый вечер|konbanwa
+добрый день|konnichiwa
+сегодня|kyou
+кот/кошка|neko
+доброе утро|ohayou
+спокойной ночи|#oyasumi|#oyasuminasai
+ручка|pen
+до свидания|sayounara
+стол|tsukue
+
+#choice
+ты и я|anata to watashi
+собаки, кошки и другие животные|inu ya neko
+ручка или карандаш|pen ka enpitsu

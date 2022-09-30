@@ -1,0 +1,43 @@
+#choice
+сумка|baggu
+ванна|basu
+удобный|benri-na
+метро|chika-tetsu
+карта|chizu
+плотник|daiku
+телефон|denwa
+универмаг|depauto
+животное|doubutsu
+зоопарк|doubutsu-en
+вот, пожалуйста (приглашая)|douzo
+художник|ga-ka
+студент|gakusei
+пепельница|haizara
+вешалка|hanga—
+широкий|hiroi
+врач|isha
+полицейский|#junsa|#keikan
+служащий фирмы|kaisha-in
+медсестра|kangofu
+архитектор|kenchiku-ka
+архитектура|kenchiku
+ключ|ki—
+повар|kokku
+полицейский участок|kouban
+Императорский дворец|Koukyo
+служащий общественного учреждения|koumu-in
+тяжёлый|omoi
+музыкант|ongaku-ka
+музыка|ongaku
+панда|panda
+политика|seiji
+политический деятель|seiji-ka
+учитель|sensei
+роман, повесть, рассказ|shousetsu
+стюардесса|suchuwa—desu
+тапочки|surippa
+башня|tawa—
+телевизор|terebi
+водитель, шофёр|unten-shu
+дешёвый|yasui
+известный|yuumei-na

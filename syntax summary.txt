@@ -1,0 +1,49 @@
+The directives change the state of all the tests underneath them, either until the new directive sets some new changes, or until a #pattern is met which has its own directives that override the global ones.
+
+#text
+A default mode. The tests following after it will require a text response.
+
+#choice
+A mode for choosing the answer out of provided radiobuttons.
+Set an argument like #choice|2 to set a custom number of choices (without an argument, the default number is 4).
+Increase "var max_choices = 8;" inside scripts.js, in case more choices are needed.
+
+#split
+A directive for separating arguments within test lines. Default is |. Note that | is always used for directives anyway. Usage example: #split|; or #split|default.
+#split|,|5 sets a "," splitter for the following 5 tests, then returns to a default "|" splitter.
+
+#reverse
+Reads the test arguments in a reverse order. Their IDs will also be reversed. Off by default.
+#reverse|on or #reverse|off explicitly states the change.
+#reverse on its own changes from off to on, and vice versa.
+
+#ask
+Defines the argument IDs that can be treated as a question. When a test is used, one question is picked randomly.
+Example: #ask|2|4|6 defines that 2nd, 4th or 6th argument can be used as a question. Default value is #ask|1.
+
+#skip
+Defines the argument IDs that would not make it into the test (like various junk info).
+Example: #skip|1|3 would ignore arguments with IDs 1 and 3.
+
+#multiline
+For the tests which have arguments spread across multiple lines. For example, #multiline|5 expects all the following tests to consist of 5 non-empty lines. Can be overridden by the rules of #pattern (described below).
+
+#pattern
+Sets a pattern for an argument set, which, when encountered, gets saved with its specific rules.
+Example: #pattern|numbers|letters|hiragana|katakana|other|anything
+It means that after reading another line of the input, if it has 6 arguments that are mostly numbers, mostly letters, mostly hiragana, mostly katakana, mostly something else, and then anything, then it fits the pattern and it'll be saved as a separate test, even if #multiline expects more argument rows. 
+An unknown argument will be treated as "anything" for now.
+Only those 6 options are currently available, maybe I'll expand this later if needed.
+(UPD: added a 7th option "japanese", which includes hiragana+katakana+other)
+Directives can be set exclusively for the pattern, overriding global parameters.
+The following can be used: #ask, #skip, #text, #choice
+Example:
+#pattern|numbers|hiragana|letters|letters
+#ask|2
+#pattern|numbers|katakana|letters|letters
+#ask|4
+#skip|1|3
+#choice|2
+#end
+Overall, #pattern will continue reading directives for itself either until it meets a non-directive row (which will be a part of a new test), or until it meets an #end directive.
+Empty #pattern without arguments will be ignored.

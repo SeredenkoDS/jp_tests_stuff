@@ -1,0 +1,79 @@
+.styled {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+	font-family: 'New Tegomin', serif;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgba(220, 0, 0, 1);
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.styled:hover {
+    background-color: rgba(255, 0, 0, 1);
+}
+
+.styled:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+.styled:disabled {
+	background-color: rgba(127, 127, 127, 1);
+}
+
+.answer_options {
+	margin: 10px;
+}
+
+.more_readable {
+	font-size: 32px;
+}
+
+.choice_table_td {
+	padding-right: 50px;
+}
+
+.choice_table_radiobutton {
+    vertical-align: middle;
+}
+
+.custom_block_n1 {
+	text-align: center;
+}
+
+.choose_file_block {
+	margin-left: 140px;
+}
+
+#block_choices_plus_result {
+	height: 360px;
+}
+
+body {
+    background-color: #121316;
+	
+}
+
+label {
+	color: #eee;
+	font-family: 'New Tegomin', serif;
+}
+
+#divMain{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -450px;
+    margin-left: -500px;
+    width: 1000px;
+    height: 900px;
+}​

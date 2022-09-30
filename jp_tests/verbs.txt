@@ -1,0 +1,501 @@
+#choice
+abuse verbally|nonoshiru
+adapt to|najimu
+add|tasu
+add to|kuwaeru
+answer|kotaeru
+arrive|tsuku
+aspire to|kokorozasu
+attack|osou
+attract attention, stand out|medatsu
+avoid, dodge|sakeru
+bake, grill|yaku
+ban, prohibit|kinjiru
+be|iru
+be absorbed in/obsessed by|fukeru
+be alive|ikiru
+be audible, able to hear|kikoeru
+be based on|motozuku
+be blinded, get dizzy|kuramu
+be born|umareru
+be broken, snap|oreru
+be burned, charred|kogeru
+be cured, healed|naoru
+be decided, agreed upon|kimaru
+be different from|kotonaru
+be different, wrong|chigau
+be drunk|yopparau
+be enough, suffient|tariru
+be excited|dokidoki suru
+be found|mitsukaru
+be frightened|tamagiru
+be glad, pleased|yorokobu
+be in trouble|komaru
+be late, lag behind|okureru
+be lazy|namakeru
+be missing, vanish|nakunaru
+be mixed,|majiru
+be next|tsugu
+be nervous|kinchou suru
+be popular|moteru
+be profitable, make money|mokaru
+be puzzled|mayou
+be resurrected;|yomigaeru
+be sad, grieve|kanashimu
+be saved, accumulated|tamaru
+be slippery|numeru
+be suprised, amazed|odoroku
+be visible, able to see|mieru
+bear a grudge|uramu
+become|naru
+become blurred, hazy|kasumu
+become crowded|komu
+become dark|kageru
+become dry|kawaku
+become empty, uncrowded|suku
+become hurt, damaged|itamu
+become popular|hayaru
+become stronger|tsuyomaru
+become wet|nureru
+begin|hajimaru
+believe|shinjiru
+belittle, despise|mikubiru
+bend, twist|hineru
+bite|kamu
+bloom|saku
+blow, wipe|fuku
+board, ride on|noru
+boast|ibaru
+borrow, rent|kariru
+break|kowareru
+breathe|koukyuu suru
+break, cut off, expire|kireru
+build|tateru
+burn|yakeru
+buy|kau
+call|yobu
+call (phone)|denwa suru
+can, be able|dekiru
+care|ki wo tsukeru
+care about, mind|kamau
+carry|hakobu
+carry on one’s shoulders|katsugu
+catch, hold (between two things)|hasamu
+celebrate, congratulate|iwau
+change|kaeru
+change|kawaru
+chase, drive away|ou
+chatter|shaberu
+check, investigate|shiraberu
+chew|kamu
+choose, select|erabu
+clash, disagree|kuichigau
+clear up, tidy up|hareru
+climb|noboru
+close, be closed|shimaru
+collapse, cave in|kuzureru
+come|kuru
+come off, go wide|hazureru
+come untied, loose|hodokeru
+comfort|nagusameru
+command|iitsukeru
+commute|kayou
+compare|kuraberu
+complain|monku wo iu
+concentrate|korasu
+connect, fasten|tsunagu
+contact|renraku suru
+continue|tsuzukeru
+continue, follow|tsuzuku
+cook|ryouri suru
+cool, refridgerate|hiyasu
+cool down|hieru
+count|kazoeru
+cross|wataru
+cross, pass, move ahead|kosu
+crush, smash|kudaku
+cry|naku
+cut|kiru
+dance|odoru
+date|tsukiau
+decay, go bad, be depressed|kusaru
+deceive, lie|itsuwaru
+decide, choose|kimeru
+decide, establish|sadameru
+decorate, display|kazaru
+decrease, reduce|heru
+defeat|makasu
+deliver|haitatsu suru
+depend on|tayoru
+describe|iiarawasu
+destroy, break down|kuzusu
+destroy, ruin|horobosu
+die|shinu
+dig|horu
+Discuss|hanashiau
+dislike, hate|iyagaru
+divide, separate|wakeru
+divorce|rikon suru
+do|suru
+do|yaru
+do your best|ganbaru
+download|daunro-do suru
+doubt, suspect|utagau
+draw|kaku
+drink|nomu
+drive|untensuru
+dry|kawakasu
+dry, air|hosu
+eat|taberu
+edge forward|nijiru
+email|me-ru suru
+embrace, hug|daku
+encourage|hagemasu
+end|owaru
+enjoy, have fun|tanoshimu
+enter|hairu
+excel, be excellent, be superior|sugureru
+exercise|undousuru
+exchange|torikaeru
+expect|kitai suru
+experience|me ni au
+explain|setsumei suru
+extract, take out|dasu
+face, turn/head toward|mukau
+fail|shippai suru
+fall asleep|nemuru
+fall down|korobu
+fall down, collapse|taoreru
+fall from the sky|furu
+fall in love|horeru
+fall, drop, hang|sagaru
+fall, go down|ochiru
+fart|onara wo suru
+fear|kowagaru
+fear, be in awe of|osoreru
+feel depressed|meiru
+feel depressed, sink|shizumu
+feel hot|hoteru
+feel, sense|kanjiru
+fiddle with|ijiru
+fight against, struggle against|tatakau
+find|mitsukeru
+finish|owaru
+finish, tidy up, clean|katazukeru
+fish|tsuru
+float, come to mind|ukabu
+flow, be called off|nagareru
+fold|tatamu
+forget|wasureru
+forgive, allow,|yurusu
+form a line, equal|narabu
+gather, assemble|atsumaru
+gaze, look up, respect, fan oneself|aogu
+get|eru
+get angry|okoru
+get changed|kikaeru
+get cloudy|kumoru
+get fat|futoru
+get fat, grow fertile / cross over, exceed|koeru
+get in|iru
+get off, go down|oriru
+get tired|tsukareru
+get up|okiru
+get used to, become familiar with|nareru
+get warm|atatamaru
+give|ageru
+give (the giver is not the speaker)|kureru
+give back, return (something to someone)|kaesu
+give up all thoughts of;  to abandon|omoikiru
+glare at, keep an eye on|niramu
+gnaw, nibble|kajiru
+go|iku
+go forward, advance|susumu
+go mad, be out of order|kuruu
+go out|deru
+go out, leave home|dekakeru
+go round|mawaru
+go up, rise|agaru
+grasp|nigiru
+greet, meet, welcome|mukaeru
+grow|haeru
+grow dark (sunset)|kureru
+grow old|toshitoru
+grow quiet|shizumaru
+grow thick|shigeru
+grow up, be raised|sodatsu
+grumble|guchiru
+hand over|watasu
+have|aru
+have, hold, own|motsu
+hear|kiku
+help|tasukeru
+help|tasukeru
+help|tetsudau
+hide (oneself)|kakureru
+hide (something)|kakusu
+hint|honomekasu
+hire, employ|yatou
+hold (in your arms), have|kakaeru
+hurry|isogu
+hurt, injured|itameru
+imagine|souzou suru
+increase|fueru
+indicate, point out|shimesu
+inflict pain, torment|kurushimeru
+invite, tempt|sasou
+jeer at|yajiru
+joke|jōdan o iu
+jump, fly|tobu
+Keep (a pet), raise, rear|kau
+kick|keru
+kill|korosu
+kiss|kisusuru
+know|shiru
+land|chakuriku suru
+laugh|warau
+lay face down|fuseru
+lead|tsureru
+leak, disclose|morasu
+leak, escape|moreru
+lean towards, tilt|katamuku
+learn|manabu
+learn|narau
+leave behind, save|nokosu
+left over, remain|nokoru
+lend|kasu
+lick|nameru
+lie|uso wo iu
+limit|kagiru
+line up, list, arrange in order|naraberu
+live|kurasu
+live, reside|sumu
+look|miru
+look upon, consider|minasu
+lose|makeru
+lose weight|yaseru
+lose, drop|otosu
+lose, part with|ushinau
+lose, remove|nakusu
+love|aisuru
+love, be affectionate, tender|kawaigaru
+lower, hang|sageru
+make|tsukuru
+make out|ichaicha suru
+make a mistake|machigaeru
+make money|kasegu
+make noise|sawagu
+make;  to manufacture;|koshiraeru
+marry|kekkon suru
+match, fit|au
+mature, ripen|jukusu
+measure, plan, plot|hakaru
+meet|au
+melt, dissolve, come untied|tokeru
+mess up|dojiru
+miss|hazusu
+mix|mazeru
+move|ugoku
+move, operate|ugokasu
+muff lines|tochiru
+multiply|kakeru
+need|iru
+notify|shiraseru
+occur, happen|okoru
+open|akeru
+open, hold (an event, party etc)|hiraku
+order (items at restaurant)|chuumonsuru
+overflow|minagiru
+overlook, let pass|minogasu
+overthrow, knock down|taosu
+paint|nuru
+panic, be flustered|awateru
+parody, twist|mojiru
+part, separate from, be divided, divorced|wakareru
+pass by, drop in|yogiru
+pass, exceed|sugiru
+pay|harau
+perish|horobiru
+persuade, make advances (to a woman)|kudoku
+pester for|sebiru
+photograph, copy, reflect|utsusu
+pick up, find|hirou
+pick, dig out|hojiru
+pile up, accumulate|tsumoru
+pile up, repeat|kasaneru
+pinch|tsuneru
+plan|keikaku suru
+plan, scheme|kuwadateru
+plant|ueru
+play|asobu
+play (string instrument)|hiku
+play with feelings|moteasobu
+plot, scheme|takuramu
+pluck, pick, tear|mushiru
+point out, sting, stab|sasu
+polish|migaku
+postpone, extend|nobasu
+praise|homeru
+pray, wish for|inoru
+procrastinate|saki no boshi ni suru
+produce, give birth, lay eggs|umu
+profit, make money|mokeru
+protect|mamoru
+prove|shoumei suru
+pull|hiku
+punch, hit|naguru
+push, press|osu
+put|oku
+put in, let in|ireru
+put on top off, put on board|noseru
+put on, wear (on feet or legs – trousers/shoes etc)|haku
+reach|todoku
+reach, extend to|oyobu
+read|yomu
+rebuke|najiru
+receive, accept|uketoru
+receive, get|morau
+recognize|mitomeru
+reduce, decrease|herasu
+refuse, decline|kotowaru
+regret, be reluctant|oshimu
+remember|omoidasu
+remember, learn|oboeru
+remove, unfasten|hazusu
+repair, cure|naosu
+repeat|kurikaesu
+request, order, ask favour|tanomu
+request, seek, buy, ask|motomeru
+rescue, save|sukuu
+resemble|niru
+respect|sonkei suru
+rest|yasumu
+restrain, control|osaeru
+return|kaeru
+return, go back|modoru
+return, put back, vomit|modosu
+review|fukushuu suru
+ridicule|azakeru
+ripen, bear fruit|minoru
+run|hashiru
+run away, escape|nigeru
+save money, put aside, store|takuwaeru
+save, store, accumulate|tameru
+say|iu
+scold, tell off|shikaru
+scream|nakisakebu
+search|sagasu
+search for|sagasu
+see|miru
+sell|uru
+send, see off|okuru
+sense, realize, notice|kizuku
+separate from, leave|hanareru
+shine|teru
+shine, glitter|hikaru
+shine, sparkle|kagayaku
+shoot|utsu
+show|miseru
+shut|shimeru
+sing|utau
+sightsee|kankou suru
+sit|suwaru
+sit in (western style)|koshikakeru
+skip school/class|saboru
+sleep, go to bed|neru
+slap|hirateuchi suru
+slip|suberu
+smash|kowasu
+smoke|suu
+sneeze|kushumi suru
+solve, untie|toku
+spill|kobosu
+spill, overflow|koboreru
+spread out, lay|shiku
+spread, become popular|hiromaru
+spread, make popular|hiromeru
+stand guard, keep lookout|miharu
+stand prepared|kamaeru
+stand up|tatsu
+start|hajimeru
+steal|nusumu
+step on|fumu
+stick, put something on|haru
+stop|tomaru
+stop talking|damaru
+stop, give up, resign|yameru
+strengthen|katameru
+strengthen|tsuyomeru
+strive, make every effort|hagemu
+stuff into/pack/fill|tsumeru
+subscribe|touroku
+subtract/minus|sashihiku
+succeed|seikou suru
+suffer|kurushimu
+suggest, start talking|iidasu
+suit, come true|kanau
+support|sasaeru
+surround, enclose|kakomu
+swim|oyogu
+take|toru
+take (length of time)|kakaru
+take a shower|abiru
+take charge of|hikiukeru
+take off, remove (shoes, clothes)|nugu
+take off (plane)|ririku suru
+take part in, affect|kakawaru
+talk|hanasu
+talk back, retort|iikaesu
+teach, show|oshieru
+tear, break, defeat|yaburu
+tease, make fun of|hiyakasu
+tell off, caution|imashimeru
+test, try, taste|tamesu
+thank|kansha suru
+think|kangaeru
+think|omou
+Think of / come into your mind|omoitsuku
+throw|nageru
+throw away|suteru
+tie, knot, make a contract|musubu
+top, exceed|uwamawaru
+torment, bully|ijimeru
+torment, roast|ibiru
+touch|fureru
+touch or feel (physically)|sawaru
+transit|norikaeru
+travel|ryoukousuru
+trick|damasu
+try|chōsen suru
+turn|magaru
+turn off, erase|kesu
+turn on, light|tsukeru
+twist|nejiru
+twist, distort|yojiru
+understand|wakaru
+unite, put together|kumu
+untie|hodoku
+use|tsukau
+use, operate|tsukau
+vanish, go out, be extinguished|kieru
+vomit/throw up|gero wo haku
+wait|matsu
+wake (somebody) up|okosu
+walk|aruku
+want, desire|hoshigaru
+wash|arau
+warm up, heat up|atatamaru
+watch|miru
+watch, view|nagameru
+wear|kiru
+wear (on your head), put on|kaburu
+win|katsu
+work|hataraku
+work for|tsutomeru
+worry about, consider|kizukau
+worship|matsuru
+wound, damage, harm|kizutsukeru
+wrap|tsutsumu
+write|kaku
+yawn|akubi wo suru
+yell|donaru

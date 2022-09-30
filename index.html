@@ -1,0 +1,84 @@
+<html>
+<head>
+<meta charset="UTF-8">
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="resources/style.css">
+<link rel="icon" href="resources/favicon.ico" type="image/x-icon"/>
+<link rel="shortcut icon" href="resources/favicon.ico" type="image/x-icon"/>
+<title>Japanese self-testing!</title>
+</head>
+<body onload="initialize();">
+<script defer src="resources/scripts.js"></script>
+
+<div id="divMain">
+
+<div class="custom_block_n1 choose_file_block">
+<label for="id_file">Choose a dictionary file:</label>
+<input type="file" id="id_file"/>
+<br/><br/>
+</div>
+
+<div class="custom_block_n1">
+	<div><label>Queries from the file are picked:</label><br/></div>
+    <input type="radio" id="orderChoice1"
+     name="rng_order" value="orderChoice1">
+    <label for="orderChoice1">randomly, infinitely</label>
+	<br/>
+    <input type="radio" id="orderChoice2" checked="true"
+     name="rng_order" value="orderChoice2">
+    <label for="orderChoice2">in a random order, no more than one time per query</label>
+	<br/>
+    <input type="radio" id="orderChoice3"
+     name="rng_order" value="orderChoice3">
+    <label for="orderChoice3">in a straight, non-randomized order</label>
+	<br/><br/>
+	
+	<button id="btn_start" name="btn_start" onclick="firstInit()" class="styled">Start the test</button>
+</div>
+
+<br/>
+
+<div id="test_answering_area" class="custom_block_n1">
+<div id="block_for_te" style="display: none; margin: 30px;">
+<h1>ATTN: THIS IS OUTDATED</h1>
+<label id="lbl_query_overwrite" for="txt_query_overwrite">Enter something here if you want a custom test:</label>
+<input type="text" id="txt_query_overwrite" name="txt_query_overwrite" required size="20"/>
+<br/><br/>
+<label id="lbl_answer_te" for="txt_answer_te">Enter a -te form for (nothing yet):</label>
+<input type="text" id="txt_answer_te" name="txt_answer_te" required size="20"/>
+<br/><br/>
+<label id="lbl_result_te">This will display whether the answer is correct or not.</label>
+</div>
+
+<label id="lbl_answer_trans" class="more_readable">Your test queries will appear here.</label>
+<div id="block_for_trans" style="display: none;">
+<br/>
+<input type="text" id="txt_answer_trans" name="txt_answer_trans" required size="20"/>
+<br/>
+</div>
+
+<div id="block_choices_plus_result">
+<div id="block_choices" class="radio-field" style="display: none;">
+<table id="block_choices_table"></table>
+</div>
+<br/><br/>
+<label id="lbl_result_trans" class="more_readable">This will display whether the answer is correct or not.</label>
+<br/><br/>
+</div>
+<button id="btn_nexttest" name="btn_nexttest" onclick="verifyAnswer()" class="styled">Onto the next</button>
+<br/><br/>
+<label id="lbl_final_results" class="more_readable">Here be final results of the test.</label>
+<button id="btn_reward" name="btn_reward" onclick="getReward()"
+class="styled" style="display: none;">Receive applause</button>
+<br/><br/>
+<button id="btn_stop" name="btn_stop" onclick="stopTest()" class="styled">Stahp!</button><br/>
+<img src="resources/stahp.png"/>
+</div>
+
+<textarea cols="30" rows="20" style="display: none;"></textarea>
+</div>
+</body>
+</html>

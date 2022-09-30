@@ -1,0 +1,2411 @@
+;taken from https://jlptsensei.com/jlpt-n5-nouns-vocabulary-list/
+#multirow|100500|I had "5" there, but now the number of arguments is mostly defined by #pattern so whatever
+#skip|1|3|cause i don't need numbers and romaji inside the test
+#ask|2|4|defining either hiragana/katakana (2) or kanji (4) as a possible question. No kanji tests have #ask|2.
+#choice
+#debug|off
+
+#pattern|numbers|japanese|letters|hiragana|letters
+;it seeks for a pattern when it has <mostly> numbers, <mostly> something else, <mostly> letters, etc.
+;putting the pattern above just for a demonstration, since it doesn't have any directives of its own,
+;otherwise i could get away with just #multirow|5 for tests with a default structure.
+
+#pattern|numbers|japanese|letters|letters
+ #ask|2
+;overriding global #ask|2|4, telling not to ask for kanji if there's none in the detected pattern
+
+;UPD: had to add this for test 57 >_<
+;#pattern|numbers|hiragana|letters|hiragana|letters
+;...and this for test 294. FML. Maybe I'll need a better "pattern" definition later...
+;#pattern|numbers|other|letters|letters
+;#ask|2
+
+;UPD: UPD: simplified things by adding "japanese" which is hiragana+katakana+other.
+;no need for 3 separate additional patterns now. Yay.
+
+1	
+赤
+aka
+あか
+
+red; crimson; scarlet​
+2	
+秋
+aki
+あき
+
+autumn; fall
+3	
+飴
+ame
+あめ
+
+candy
+4	
+雨
+ame
+あめ
+
+rain
+5	
+姉
+ane
+あね
+
+older sister; elder sister​
+6	
+兄
+ani
+あに
+
+elder brother; older brother​
+7	
+青
+ao
+あお
+
+blue; azure
+8	
+アパート
+apaato
+apartment
+9	
+朝
+asa
+あさ
+
+morning
+10	
+朝ご飯
+asagohan
+あさごはん
+
+breakfast
+11	
+明後日
+asatte
+あさって
+
+day after tomorrow
+12	
+足
+ashi
+あし
+
+foot; leg; paw; arm
+13	
+明日
+ashita
+あした
+
+tomorrow
+14	
+頭
+atama
+あたま
+
+head
+15	
+後
+ato
+あと
+
+behind; after; remainder; left; also
+16	
+晩ご飯
+bangohan
+ばんごはん
+
+dinner; evening meal
+17	
+番号
+bangou
+ばんごう
+
+number
+18	
+バス
+basu
+bus
+19	
+バター
+bataa
+butter​
+20	
+ベッド
+beddo
+bed
+21	
+勉強
+benkyou
+べんきょう
+
+to study
+22	
+ボールペン
+boorupen
+ball-point pen
+23	
+ボタン
+botan
+button
+24	
+帽子
+boushi
+ぼうし
+
+hat; cap
+25	
+文章
+bunshou
+ぶんしょう
+
+sentence
+26	
+豚肉
+butaniku
+ぶたにく
+
+pork
+27	
+病院
+byouin
+びょういん
+
+hospital
+28	
+病気
+byouki
+びょうき
+
+illness; disease; sickness
+29	
+茶色
+chairo
+ちゃいろ
+
+brown
+30	
+茶碗
+chawan
+ちゃわん
+
+rice bowl; tea cup; teacup
+31	
+父
+chichi
+ちち
+
+father
+32	
+地下鉄
+chikatetsu
+ちかてつ
+
+subway; underground train
+33	
+地図
+chizu
+ちず
+
+map
+34	
+台所
+daidokoro
+だいどころ
+
+kitchen
+35	
+大学
+daigaku
+だいがく
+
+university; college
+36	
+出口
+deguchi
+でぐち
+
+exit; gateway; way out
+37	
+電気
+denki
+でんき
+
+electricity
+38	
+電車
+densha
+でんしゃ
+
+train; electric train
+39	
+電話
+denwa
+でんわ
+
+telephone (call / device)l; phone call
+40	
+デパート
+depaato
+department store
+41	
+ドア
+doa
+door
+42	
+どなた
+donata
+who
+43	
+動物
+doubutsu
+どうぶつ
+
+animal
+44	
+土曜日
+doyoubi
+どようび
+
+Saturday
+45	
+絵
+e
+え
+
+picture
+46	
+ええ
+ee
+yes; that is correct; right
+47	
+映画
+eiga
+えいが
+
+movie; film
+48	
+映画館
+eigakan
+えいがかん
+
+movie theater; cinema
+49	
+英語
+eigo
+えいご
+
+English language
+50	
+駅
+eki
+えき
+
+station
+51	
+鉛筆
+enpitsu
+えんぴつ
+
+pencil
+52	
+エレベーター
+erebeetaa
+elevator
+53	
+フィルム
+firumu
+film
+54	
+フォーク
+fooku
+fork
+55	
+服
+fuku
+ふく
+
+clothes
+56	
+二人
+futari
+ふたり
+
+two people; pair; couple
+57	
+二つ
+futatsu
+ふたつ
+
+two; 2
+58	
+二日
+futsuka
+ふつか
+
+the second day of the month / 2 days
+59	
+封筒
+fuutou
+ふうとう
+
+envelope
+60	
+冬
+fuyu
+ふゆ
+
+winter
+61	
+外国
+gaikoku
+がいこく
+
+foreign country
+62	
+外国人
+gaikokujin
+がいこくじん
+
+foreigner; foreign citizen; foreign national; alien; non-Japanese
+63	
+学校
+gakkou
+がっこう
+
+school
+64	
+学生
+gakusei
+がくせい
+
+student
+65	
+玄関
+genkan
+げんかん
+
+entrance
+66	
+元気
+genki
+げんき
+
+lively; full of spirit; energetic; healthy
+67	
+月曜日
+getsuyoubi
+げつようび
+
+Monday
+68	
+銀行
+ginkou
+ぎんこう
+
+bank
+69	
+ギター
+gitaa
+guitar
+70	
+五
+go
+ご
+
+five; 5
+71	
+午後
+gogo
+ごご
+
+afternoon; p.m.
+72	
+ご飯
+gohan
+ごはん
+
+cooked rice, meal
+73	
+午前
+gozen
+ごぜん
+
+morning; a.m.
+74	
+グラム
+guramu
+gram
+75	
+牛肉
+gyuuniku
+ぎゅうにく
+
+beef
+76	
+牛乳
+gyuunyuu
+ぎゅうにゅう
+
+(cow's) milk
+77	
+歯
+ha
+は
+
+tooth
+78	
+八
+hachi
+はち
+
+eight: 8
+79	
+葉書
+hagaki
+はがき
+
+postcard
+80	
+母
+haha
+はは
+
+mother
+81	
+はい
+hai
+yes; that is correct​
+82	
+灰皿
+haizara
+はいざら
+
+ashtray
+83	
+箱
+hako
+はこ
+
+box; crate
+84	
+半
+han
+はん
+
+half; semi-; half-past
+85	
+花
+hana
+はな
+
+flower
+86	
+鼻
+hana
+はな
+
+nose
+87	
+話
+hanashi
+はなし
+
+talk; speech; chat; conversation​
+88	
+半分
+hanbun
+はんぶん
+
+half
+89	
+ハンカチ
+hankachi
+handkerchief​
+90	
+晴れ
+hare
+はれ
+
+clear weather
+91	
+春
+haru
+はる
+
+spring; springtime
+92	
+箸
+hashi
+はし
+
+chopsticks
+93	
+橋
+hashi
+はし
+
+bridge
+94	
+二十歳
+hatachi
+はたち
+
+20 years old; twenty years old
+95	
+二十日
+hatsuka
+はつか
+
+twentieth day of the month / 20 days
+96	
+辺
+hen
+へん
+
+area
+97	
+下手
+heta
+へた
+
+unskillful; poor; awkward​
+98	
+部屋
+heya
+へや
+
+room
+99	
+左
+hidari
+ひだり
+
+left; left hand side
+100	
+東
+higashi
+ひがし
+
+east
+101	
+飛行機
+hikouki
+ひこうき
+
+airplane; aircraft
+102	
+暇
+hima
+ひま
+
+free time
+103	
+昼
+hiru
+ひる
+
+noon; midday; daytime; lunch
+104	
+昼ご飯
+hirugohan
+ひるごはん
+
+lunch
+105	
+人
+hito
+ひと
+
+person; human
+106	
+一人
+hitori
+ひとり
+
+one person​; alone; single
+107	
+一つ
+hitotsu
+ひとつ
+
+one thing; only
+108	
+ほか
+hoka
+other (place, thing, person); the rest
+109	
+本
+hon
+ほん
+
+book; volume; script
+110	
+本棚
+hondana
+ほんだな
+
+bookshelf; bookcase
+111	
+本当
+hontou
+ほんとう
+
+truth; reality; actuality; fact
+112	
+ホテル
+hoteru
+hotel
+113	
+百
+hyaku
+ひゃく
+
+100; hundred
+114	
+一
+ichi
+いち
+
+one; best; first; foremost; start
+115	
+一番
+ichiban
+いちばん
+
+number one; first; 1st, first place​; best; most​
+116	
+一日
+ichinichi
+いちにち
+
+one day, all day
+117	
+家
+ie
+いえ
+
+house, residence, family
+118	
+池
+ike
+いけ
+
+pond
+119	
+いくら
+ikura
+how much?; how many?​
+120	
+今
+ima
+いま
+
+now; the present time; soon
+121	
+意味
+imi
+いみ
+
+meaning; significance; sense
+122	
+妹
+imouto
+いもうと
+
+younger sister
+123	
+犬
+inu
+いぬ
+
+dog
+124	
+入口
+iriguchi
+いりぐち
+
+entrance; entry; gate
+125	
+色
+iro
+いろ
+
+colour; color
+126	
+色々
+iroiro
+いろいろ
+
+various
+127	
+医者
+isha
+いしゃ
+
+(medical) doctor; physician
+128	
+一緒
+issho
+いっしょ
+
+together; at the same time; same; identical
+129	
+椅子
+isu
+いす
+
+chair
+130	
+五日
+itsuka
+いつか
+
+the fifth day of the month / 5 days
+131	
+五つ
+itsutsu
+いつつ
+
+five; 5
+132	
+嫌
+iya
+いや
+
+unpleasant
+133	
+字引
+jibiki
+じびき
+
+dictionary
+134	
+自動車
+jidousha
+じどうしゃ
+
+automobile; motorcar; motor vehicle; car
+135	
+時間
+jikan
+じかん
+
+time; hour(s)
+136	
+辞書
+jisho
+じしょ
+
+dictionary
+137	
+自転車
+jitensha
+じてんしゃ
+
+bicycle
+138	
+上手
+jouzu
+じょうず
+
+skillful; skilled; proficient; good (at)
+139	
+授業
+jugyou
+じゅぎょう
+
+lesson; class work
+140	
+十
+juu
+じゅう
+
+ten; 10
+141	
+かばん
+kaban
+bag; basket​
+142	
+花瓶
+kabin
+かびん
+
+a vase
+143	
+角
+kado
+かど
+
+a corner; angle​
+144	
+鍵
+kagi
+かぎ
+
+key
+145	
+階段
+kaidan
+かいだん
+
+stairs; stairway; staircase
+146	
+買い物
+kaimono
+かいもの
+
+shopping; purchased goods
+147	
+会社
+kaisha
+かいしゃ
+
+company; corporation
+148	
+カメラ
+kamera
+camera
+149	
+紙
+kami
+かみ
+
+paper
+150	
+漢字
+kanji
+かんじ
+
+kanji
+151	
+カップ
+kappu
+cup
+152	
+体
+karada
+からだ
+
+body
+153	
+カレー
+karee
+curry
+154	
+カレンダー
+karendaa
+calendar
+155	
+傘
+kasa
+かさ
+
+umbrella
+156	
+方
+kata
+かた
+
+way of doing something
+157	
+家庭
+katei
+かてい
+
+household
+158	
+川
+kawa
+かわ
+
+river; stream​
+159	
+火曜日
+kayoubi
+かようび
+
+Tuesday
+160	
+風邪
+kaze
+かぜ
+
+a cold
+161	
+風
+kaze
+かぜ
+
+wind
+162	
+家族
+kazoku
+かぞく
+
+family; members of a family
+163	
+警官
+keikan
+けいかん
+
+policeman; police officer
+164	
+結婚
+kekkon
+けっこん
+
+marriage
+165	
+結構
+kekkou
+けっこう
+
+splendid, enough
+166	
+今朝
+kesa
+けさ
+
+this morning
+167	
+木
+ki
+き
+
+tree; shrub; bush; wood; timber
+168	
+昨日
+kinou
+きのう
+
+yesterday
+169	
+金曜日
+kinyoubi
+きんようび
+
+Friday
+170	
+切符
+kippu
+きっぷ
+
+ticket
+171	
+嫌い
+kirai
+きらい
+
+hate
+172	
+キログラム
+kiro guramu
+kilogram
+173	
+キロメートル
+kiro meetoru
+kilometer
+174	
+喫茶店
+kissaten
+きっさてん
+
+coffee shop; tearoom; cafe
+175	
+北
+kita
+きた
+
+north
+176	
+切手
+kitte
+きって
+
+stamp (postage)
+177	
+こっち
+kocchi
+this person or way
+178	
+こちら
+kochira
+this way; this direction​
+179	
+子供
+kodomo
+こども
+
+child
+180	
+声
+koe
+こえ
+
+voice
+181	
+九日
+kokonoka
+ここのか
+
+ninth day of the month / 9 days
+182	
+九つ
+kokonotsu
+ここのつ
+
+nine; 9
+183	
+今晩
+konban
+こんばん
+
+tonight; this evening
+184	
+今月
+kongetsu
+こんげつ
+
+this month
+185	
+今週
+konshuu
+こんしゅう
+
+this week
+186	
+コーヒー
+koohii
+Coffee
+187	
+コート
+kooto
+coat
+188	
+コピー
+kopii
+copy; photocopy
+189	
+コップ
+koppu
+glass (drinking vessel); tumbler​
+190	
+言葉
+kotoba
+ことば
+
+word; words
+191	
+今年
+kotoshi
+ことし
+
+this year
+192	
+交番
+kouban
+こうばん
+
+police box
+193	
+紅茶
+koucha
+こうちゃ
+
+black tea
+194	
+公園
+kouen
+こうえん
+
+park
+195	
+交差点
+kousaten
+こうさてん
+
+intersection
+196	
+口
+kuchi
+くち
+
+mouth, opening
+197	
+果物
+kudamono
+くだもの
+
+fruit
+198	
+曇り
+kumori
+くもり
+
+cloudiness; cloudy weather
+199	
+国
+kuni
+くに
+
+country; state; region
+200	
+クラス
+kurasu
+class
+201	
+黒
+kuro
+くろ
+
+black
+202	
+車
+kuruma
+くるま
+
+car; automobile; vehicle
+203	
+薬
+kusuri
+くすり
+
+medicine
+204	
+靴
+kutsu
+くつ
+
+shoes
+205	
+靴下
+kutsushita
+くつした
+
+socks
+206	
+去年
+kyonen
+きょねん
+
+last year
+207	
+今日
+kyou
+きょう
+
+today; this day
+208	
+兄弟
+kyoudai
+きょうだい
+
+siblings; brothers and sisters​; mate
+209	
+教室
+kyoushitsu
+きょうしつ
+
+classroom
+210	
+九
+kyuu
+きゅう
+
+nine; 9
+211	
+マッチ
+macchi
+match
+212	
+町
+machi
+まち
+
+town; block; neighborhood
+213	
+窓
+mado
+まど
+
+window
+214	
+前
+mae
+まえ
+
+previous; before; in front; ago
+215	
+毎朝
+maiasa
+まいあさ
+
+every morning
+216	
+毎晩
+maiban
+まいばん
+
+every night
+217	
+毎日
+mainichi
+まいにち
+
+every day
+218	
+毎週
+maishuu
+まいしゅう
+
+every week
+219	
+毎年
+maitoshi / mainen
+まいとし / まいねん
+
+every year; yearly; annually
+220	
+毎月
+maitsuki
+まいつき
+
+every month; monthly
+221	
+万
+man
+まん
+
+10,000; ten thousand
+222	
+万年筆
+mannenhitsu
+まんねんひつ
+
+fountain pen
+223	
+真っ直ぐ
+massugu
+まっすぐ
+
+straight ahead,direct
+224	
+目
+me
+め
+
+eye
+225	
+メートル
+meetoru
+metre; meter
+226	
+眼鏡
+megane
+めがね
+
+glasses
+227	
+道
+michi
+みち
+
+road; street
+228	
+緑
+midori
+みどり
+
+green
+229	
+右
+migi
+みぎ
+
+right; right hand side
+230	
+三日
+mikka
+みっか
+
+the third day of the month / 3 days
+231	
+耳
+mimi
+みみ
+
+ear; hearing
+232	
+南
+minami
+みなみ
+
+south
+233	
+皆さん
+minasan
+みなさん
+
+everyone
+234	
+みんな
+minna
+all; everyone; everybody
+235	
+店
+mise
+みせ
+
+store; shop; establishment; restaurant
+236	
+三つ
+mitsu
+みつ
+
+three; 3
+237	
+水
+mizu
+みず
+
+water; fluid; liquid​
+238	
+木曜日
+mokuyoubi
+もくようび
+
+Thursday
+239	
+門
+mon
+もん
+
+gate
+240	
+問題
+mondai
+もんだい
+
+problem; question (e.g. on a test)
+241	
+物
+mono
+もの
+
+thing
+242	
+六日
+muika
+むいか
+
+sixth day of the month / 6 days
+243	
+向こう
+mukou
+むこう
+
+over there
+244	
+村
+mura
+むら
+
+village
+245	
+六つ
+muttsu
+むっつ
+
+six; 6
+246	
+ナイフ
+naifu
+knife
+247	
+中
+naka
+なか
+
+inside; in; within; center
+248	
+名前
+namae
+なまえ
+
+name; full name; given name
+249	
+七つ
+nanatsu
+ななつ
+
+seven; 7
+250	
+七日
+nanoka
+なのか
+
+seventh day of the month / 7 days
+251	
+夏
+natsu
+なつ
+
+summer
+252	
+夏休み
+natsuyasumi
+なつやすみ
+
+summer vacation; summer holiday
+253	
+猫
+neko
+ねこ
+
+cat
+254	
+ネクタイ
+nekutai
+tie; necktie
+255	
+二
+ni
+に
+
+two; 2
+256	
+日曜日
+nichiyoubi
+にちようび
+
+Sunday
+257	
+日記
+nikki
+にっき
+
+diary; journal
+258	
+肉
+niku
+にく
+
+meat
+259	
+荷物
+nimotsu
+にもつ
+
+luggage; baggage
+260	
+西
+nishi
+にし
+
+west
+261	
+庭
+niwa
+にわ
+
+garden
+262	
+飲み物
+nomimono
+のみもの
+
+drink; beverage
+263	
+ノート
+nooto
+notebook
+264	
+ニュース
+nyuusu
+news
+265	
+おばあさん
+obaasan
+grandmother
+266	
+伯母さん
+obasan
+おばさん
+
+aunt; old lady
+267	
+お弁当
+obentou
+おべんとう
+
+lunch box; Japanese box lunch
+268	
+お茶
+ocha
+おちゃ
+
+tea
+269	
+お風呂
+ofuro
+おふろ
+
+bath
+270	
+伯父さん
+ojisan
+おじさん
+
+uncle; old man; mister
+271	
+お母さん
+okaasan
+おかあさん
+
+mother; mom; mum; ma
+272	
+お金
+okane
+おかね
+
+money
+273	
+お菓子
+okashi
+おかし
+
+confections; sweets; candy
+274	
+奥さん
+okusan
+おくさん
+
+wife; your wife; his wife
+275	
+お巡りさん
+omawari san
+おまわりさん
+
+police officer (friendly term for policeman)
+276	
+同じ
+onaji
+おなじ
+
+same
+277	
+お腹
+onaka
+おなか
+
+stomach
+278	
+お姉さん
+oneesan
+おねえさん
+
+elder sister; young lady; miss; ma'am
+279	
+音楽
+ongaku
+おんがく
+
+music
+280	
+お兄さん
+oniisan
+おにいさん
+
+older brother; elder brother; young man; buddy
+281	
+女
+onna
+おんな
+
+woman; female sex
+282	
+女の子
+onnanoko
+おんなのこ
+
+girl; daughter; young women
+283	
+大勢
+oozei
+おおぜい
+
+crowd of people; great number of people
+284	
+お酒
+osake
+おさけ
+
+alcohol
+285	
+お皿
+osara
+おさら
+
+plate, dish
+286	
+お手洗い
+otearai
+おてあらい
+
+toilet; restroom; lavatory; bathroom
+287	
+男
+otoko
+おとこ
+
+man; male
+288	
+男の子
+otokonoko
+おとこのこ
+
+boy; male child; baby boy
+289	
+大人
+otona
+おとな
+
+adult
+290	
+一昨日
+ototoi
+おととい
+
+day before yesterday
+291	
+一昨年
+ototoshi
+おととし
+
+year before last
+292	
+お父さん
+otousan
+おとうさん
+
+father; dad; papa; pa; pop; daddy
+293	
+弟
+otouto
+おとうと
+
+younger brother
+294	
+パーティー
+paatii
+party
+295	
+パン
+pan
+bread
+296	
+ページ
+peeji
+page
+297	
+ペン
+pen
+pen
+298	
+ペット
+petto
+pet
+299	
+ポケット
+poketto
+pocket
+300	
+ポスト
+posuto
+post
+301	
+プール
+puuru
+swimming pool
+302	
+来月
+raigetsu
+らいげつ
+
+next month
+303	
+来年
+rainen
+らいねん
+
+next year
+304	
+来週
+raishuu
+らいしゅう
+
+next week
+305	
+ラジオ
+rajiio
+radio
+306	
+零
+rei
+れい
+
+zero
+307	
+冷蔵庫
+reizouko
+れいぞうこ
+
+refrigerator
+308	
+レコード
+rekoodo
+record
+309	
+練習
+renshuu
+れんしゅう
+
+practice; practicing
+310	
+レストラン
+resutoran
+restaurant
+311	
+六
+roku
+ろく
+
+six; 6
+312	
+廊下
+rouka
+ろうか
+
+corridor; hallway; passageway
+313	
+旅行
+ryokou
+りょこう
+
+travel; trip; journey; excursion; tour
+314	
+料理
+ryouri
+りょうり
+
+cuisine
+315	
+両親
+ryoushin
+りょうしん
+
+parents; both parents
+316	
+留学生
+ryuugakusei
+りゅうがくせい
+
+overseas student; exchange student
+317	
+財布
+saifu
+さいふ
+
+purse; wallet
+318	
+魚
+sakana
+さかな
+
+fish
+319	
+先
+saki
+さき
+
+previous; prior; first; earlier
+320	
+作文
+sakubun
+さくぶん
+
+writing; composition
+321	
+三
+san
+さん
+
+three; 3
+322	
+散歩
+sanpo
+さんぽ
+
+walk; stroll
+323	
+再来年
+sarainen
+さらいねん
+
+year after next
+324	
+砂糖
+satou
+さとう
+
+sugar
+325	
+背
+se
+せ
+
+height; stature; back; spine
+326	
+背広
+sebiro
+せびろ
+
+business suit
+327	
+セーター
+seetaa
+sweater; jumper
+328	
+生徒
+seito
+せいと
+
+pupil; student
+329	
+石鹼
+sekken
+せっけん
+
+soap
+330	
+千
+sen
+せん
+
+1,000; thousand
+331	
+先月
+sengetsu
+せんげつ
+
+last month
+332	
+先生
+sensei
+せんせい
+
+teacher; instructor; master
+333	
+先週
+senshuu
+せんしゅう
+
+last week
+334	
+洗濯
+sentaku
+せんたく
+
+washing; laundry
+335	
+写真
+shashin
+しゃしん
+
+photograph; photo
+336	
+シャツ
+shatsu
+shirt
+337	
+シャワー
+shawaa
+shower
+338	
+四
+shi
+し
+
+four; 4
+339	
+七
+shichi
+しち
+
+seven; 7
+340	
+仕事
+shigoto
+しごと
+
+work; job; business
+341	
+新聞
+shinbun
+しんぶん
+
+newspaper
+342	
+塩
+shio
+しお
+
+salt
+343	
+白
+shiro
+しろ
+
+white; innocence; innocent person
+344	
+下
+shita
+した
+
+below; down; under; bottom
+345	
+質問
+shitsumon
+しつもん
+
+question; inquiry
+346	
+食堂
+shokudou
+しょくどう
+
+cafeteria; dining room
+347	
+醬油
+shouyu
+しょうゆ
+
+soy sauce
+348	
+宿題
+shukudai
+しゅくだい
+
+homework; assignment; pending issue
+349	
+そば
+soba
+near; beside
+350	
+空
+sora
+そら
+
+sky; the air
+351	
+外
+soto
+そと
+
+outside; exterior;
+352	
+掃除
+souji
+そうじ
+
+to clean, to sweep
+353	
+水曜日
+suiyoubi
+すいようび
+
+Wednesday
+354	
+スカート
+sukaato
+skirt
+355	
+好き
+suki
+すき
+
+like
+356	
+少し
+sukoshi
+すこし
+
+a little (bit); small quantity; few; short distance
+357	
+スポーツ
+supootsu
+sport; sports
+358	
+スプーン
+supuun
+spoon
+359	
+スリッパ
+surippa
+slipper; slippers
+360	
+ストーブ
+sutoobu
+heater; stove
+361	
+たばこ
+tabako
+tobacco; cigarette
+362	
+食べ物
+tabemono
+たべもの
+
+food
+363	
+大変
+taihen
+たいへん
+
+very; greatly; terribly; serious; difficult
+364	
+大切
+taisetsu
+たいせつ
+
+important; necessary; indispensable; beloved
+365	
+大使館
+taishikan
+たいしかん
+
+embassy
+366	
+沢山
+takusan
+たくさん
+
+many
+367	
+タクシー
+takushii
+taxi
+368	
+卵
+tamago
+たまご
+
+eggs; egg
+369	
+誕生日
+tanjoubi
+たんじょうび
+
+birthday
+370	
+縦
+tate
+たて
+
+length,height
+371	
+建物
+tatemono
+たてもの
+
+building
+372	
+手
+te
+て
+
+hand; arm
+373	
+テーブル
+teeburu
+table
+374	
+テープ
+teepu
+tape
+375	
+テープレコーダー
+teepu rekoodaa
+tape recorder
+376	
+手紙
+tegami
+てがみ
+
+Letter (message)​
+377	
+天気
+tenki
+てんき
+
+weather; the elements
+378	
+テレビ
+terebi
+television; TV​
+379	
+テスト
+tesuto
+examination; quiz; test
+380	
+戸
+to
+と
+
+Japanese style door
+381	
+トイレ
+toire
+toilet
+382	
+時計
+tokei
+とけい
+
+watch; clock; timepiece
+383	
+時
+toki
+とき
+
+time; moment; occasion; chance
+384	
+時々
+tokidoki
+ときどき
+
+sometimes; at times
+385	
+所
+tokoro
+ところ
+
+place
+386	
+友達
+tomodachi
+ともだち
+
+friend; companion
+387	
+隣
+tonari
+となり
+
+next door to
+388	
+十日
+tooka
+とおか
+
+tenth day of the month / 10 days
+389	
+鳥
+tori
+とり
+
+bird
+390	
+鶏肉
+toriniku
+とりにく
+
+chicken meat
+391	
+年
+toshi
+とし
+
+year; age
+392	
+図書館
+toshokan
+としょかん
+
+library
+393	
+次
+tsugi
+つぎ
+
+next
+394	
+一日
+tsuitachi
+ついたち
+
+first day of the month
+395	
+机
+tsukue
+つくえ
+
+desk
+396	
+上
+ue
+うえ
+
+above; up; over; top; surface
+397	
+海
+umi
+うみ
+
+sea
+398	
+後ろ
+ushiro
+うしろ
+
+back; behind; rear
+399	
+歌
+uta
+うた
+
+song
+400	
+上着
+uwagi
+うわぎ
+
+coat; tunic; jacket; outer garment
+401	
+ワイシャツ
+wai shatsu
+shirt
+402	
+山
+yama
+やま
+
+mountain; hill
+403	
+八百屋
+yaoya
+やおや
+
+greengrocer; fruit and vegetable shop; versatile
+404	
+野菜
+yasai
+やさい
+
+vegetable
+405	
+休み
+yasumi
+やすみ
+
+rest; vacation; holiday
+406	
+八つ
+yattsu
+やっつ
+
+eight: 8
+407	
+四日
+yokka
+よっか
+
+fourth day of the month / 4 days
+408	
+横
+yoko
+よこ
+
+beside,side,width
+409	
+夜
+yoru
+よる
+
+evening; night
+410	
+四つ
+yotsu
+よつ
+
+four; 4
+411	
+洋服
+youfuku
+ようふく
+
+western clothes
+412	
+八日
+youka
+ようか
+
+eighth day of the month / 8 days
+413	
+雪
+yuki
+ゆき
+
+snow
+414	
+昨夜
+yuube
+ゆうべ
+
+last night
+415	
+郵便局
+yuubinkyoku
+ゆうびんきょく
+
+post office
+416	
+夕方
+yuugata
+ゆうがた
+
+evening; dusk
+417	
+夕飯
+yuuhan
+ゆうはん
+
+evening meal
+418	
+有名
+yuumei
+ゆうめい
+
+famous
+419	
+雑誌
+zasshi
+ざっし
+
+magazine
+420	
+全部
+zenbu
+ぜんぶ
+
+all
+421	
+ゼロ
+zero
+zero
+422	
+ズボン
+zubon
+trousers; pants

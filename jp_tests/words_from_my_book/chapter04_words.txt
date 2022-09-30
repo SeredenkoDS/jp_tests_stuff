@@ -1,0 +1,33 @@
+#choice
+Gura's first word|A...,
+салон красоты|biyouin
+больница|byouin
+подземный|chika
+президент (страны)|daitouryou
+кто?|#dare|#donata
+картина|e
+рецепция (в гостинице)|furonto
+банк|ginkou
+цветочный магазин|hana-ya
+мир (покой)|heiwa
+магазин фотокамер|kamera-ya
+лёгкий (не тяжёлый)|karui
+кафе|kissaten
+церковь|kyoukai
+мясная лавка|niku-ya
+женщина|#onna|#onna no hito
+хлеб|pan
+ресторан|resutoran
+рыба|sakana
+рыбная лавка|sakana-ya
+салат|sarada
+пожарная часть|shoubou-sho
+пожарная машина|shoubou-jidousha
+потом, затем|sore-kara
+стейк|suteki
+туалет|toire
+аптека|yakkyoku
+овощная лавка|yao-ya
+овощи|yasai
+овощной салат|yasai-sarada
+почта|yuubin-kyoku

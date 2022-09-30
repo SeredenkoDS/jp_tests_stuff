@@ -1,0 +1,50 @@
+#choice
+красный|akai
+новый|atarashii
+пояс/ремень|beruto
+шапка/шляпа|boushi
+брошка|burouchi
+маленький|chiisai
+который?/кто?|dochira
+старый (про вещи)|furui
+носовой платок|hankachi
+комната|heya
+человек|hito
+книга|hon
+отель/гостиница|hoteru
+дом (не как здание, а как место, куда возвращаются)|ie
+сколько?|ikura
+машина|#jidousha|#kuruma
+компания/фирма|kaisha
+зонт|kasa
+река|kawa
+чистый/красивый|kirei-na
+окраина/пригород|kougai
+государственный флаг|kokki
+страна/родная страна|kuni
+обувь|kutsu
+очки|megane
+лес|mori
+длинный|nagai
+имя/название|namae
+галстук|nekutai
+багаж, груз|nimotsu
+большой|oukii
+паспорт|pasupouto
+лента|ribon
+мужской пиджак|sebiro
+тысяча|sen
+свитер|seta
+президент, глава (компании)|sha-chou
+тихий, спокойный|shizuka-na
+юбка|スカート
+чулки|sutokkingu
+костюм|スーツ
+чемодан|スーツケース
+высокий, дорогой|takai
+такси|takushi
+текст, учебник|tekisuto
+часы|tokei
+вино|wain
+гора|yama
+штаны|zubon
